@@ -5,12 +5,16 @@
 
 h1, h2 {
   color: #E6DDC4;
-  font-family: play;
+  font-family: domine;
   text-shadow: 5px 5px 5px black;
 }
 
 h1 {
   font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 body {
@@ -20,6 +24,7 @@ body {
 p {
   color: #E9F8F9;
   font-family: domine;
+  font-size: 20px;
 }
 
 .card {
@@ -40,6 +45,15 @@ i {
 
 .div-extend {
   padding: 20px
+}
+
+button {
+  color: #E9F8F9;
+  background-color: #181823;
+  margin: 20px 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: domine;
 }
 
 @media (max-width: 960px) {
